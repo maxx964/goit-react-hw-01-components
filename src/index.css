@@ -227,6 +227,7 @@ ol {
 
 
 .transaction-history th {
+  font-size: 20px;
   background-color: #00bfff;
   color: #fff;
   text-align: left;
@@ -241,4 +242,5 @@ ol {
 
 .transaction-history td {
   padding: 20px;
+  font-size: 20px;
 }
