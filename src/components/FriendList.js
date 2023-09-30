@@ -1,4 +1,10 @@
 import React from 'react';
+import './FriendList.css';
+
+
+
+
+
 
 // інфа про одного друга
 const FriendListItem = ({ avatar, name, isOnline }) => {
@@ -14,7 +20,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 // список друзів
 const FriendList = ({ friends }) => {
   return (
-    <div className='wrap-frend' >
+    <div className='wrap-friend' >
       <ul className="friend-list">
       {friends.map(({ id, avatar, name, isOnline }) => (
         <FriendListItem key={id} avatar={avatar} name={name} isOnline={isOnline} />

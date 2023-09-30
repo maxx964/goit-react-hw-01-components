@@ -1,4 +1,8 @@
 import React from 'react';
+import './Profile.css';
+
+
+
 
 function Profile({ username, tag, location, avatar, stats }) {
   return (
