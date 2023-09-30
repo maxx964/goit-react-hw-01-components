@@ -44,7 +44,7 @@
   height: 160px;
   margin: 0 auto;
   margin-bottom: 10px;
-  background-color: grey;
+background-color: rgb(150, 147, 144);
 }
 
 .title {
@@ -70,6 +70,8 @@
   text-align: center;
   border-radius: 7%;
 } 
+
+
  .item-statist-0 {
   background-color: bisque;
 }

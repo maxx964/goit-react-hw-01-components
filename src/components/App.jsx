@@ -1,16 +1,16 @@
 
 import React from 'react';
 
-import Profile from './Profile';
+import Profile from './Profile/Profile';
 import user from '../databases/user';
 
-import Statistics from './Statistics';
+import Statistics from './Statistics/Statistics';
 import statsData from '../databases/statsData';
 
-import FriendList from './FriendList';
+import FriendList from './FriendList/FriendList';
 import friendsData from '../databases/friendsData';
 
-import TransactionHistory from './TransactionHistory';
+import TransactionHistory from './Transaction/TransactionHistory';
 import transactionsData from '../databases/transactionsData';
 
 

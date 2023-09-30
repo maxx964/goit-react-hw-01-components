@@ -6,7 +6,8 @@ import './FriendList.css';
 
 
 
-// інфа про одного друга
+// інфа одного друга
+
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className="item">
@@ -17,7 +18,8 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-// список друзів
+// список 
+
 const FriendList = ({ friends }) => {
   return (
     <div className='wrap-friend' >
