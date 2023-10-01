@@ -1,34 +1,17 @@
 import React from 'react';
-import './FriendList.css';
 
-
-
-
-
-
-// інфа одного друга
-
-const FriendListItem = ({ avatar, name, isOnline }) => {
-  return (
-    <li className="item">
-      <span className={`status ${isOnline ? 'online' : 'offline'}`}></span>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
-    </li>
-  );
-};
-
-// список 
+import FriendListItem from '../FriendListItem/FriendListItem';
+import styles from './FriendList.module.css';
 
 const FriendList = ({ friends }) => {
   return (
-    <div className='wrap-friend' >
-      <ul className="friend-list">
+      <div className={styles.wrapFriend} >
+          <ul className={styles.friendList}>
       {friends.map(({ id, avatar, name, isOnline }) => (
         <FriendListItem key={id} avatar={avatar} name={name} isOnline={isOnline} />
       ))}
-    </ul>
-      </div>
+      </ul>
+    </div>
   );
 };
 

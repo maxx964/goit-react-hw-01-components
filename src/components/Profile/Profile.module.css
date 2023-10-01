@@ -1,4 +1,4 @@
- .avatar-prof {
+ .avatarProf {
   display: block;
   margin: 0 auto;
   border: 6px solid rgb(49, 48, 62);
@@ -20,18 +20,18 @@
   margin-bottom: 10px;
 }
 
-.name-prof {
+.nameProf {
     font-family: 'Oswald', sans-serif;
   font-size: 50px;
   margin: 25px;
 }
 
-.tag-prof,
-.location-prof {
+.tagProf,
+.locationProf {
   font-size: 25px;
 }
 
-.stats-prof {
+.statsProf {
 
   margin: 0 auto;
   width: 590px;
@@ -46,26 +46,28 @@
 }
 
 
-.item-prof {
+.itemProf {
   display: flex;
   flex-direction: column;
 } 
 
- .stats-prof li {
+ .statsProf li {
   text-align: center;
   padding: 30px;
 }
 
-.label-prof_1,
-.label-prof_2,
-.label-prof_3 {
+.labelProfOne,
+.labelProfTwo,
+.labelProfThree {
   font-weight: bold;
   font-size: 24px;
 }
 
-.quantity-prof {
+.quantityProf {
     font-family: 'Oswald', sans-serif;
   margin-top: 30px;
   font-size: 35px;
   color: #262d34;
 } 
+
+  

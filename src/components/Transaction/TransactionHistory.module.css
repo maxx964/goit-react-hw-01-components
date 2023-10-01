@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
     width: 590px;
     margin: 0 auto;
     border-collapse: collapse;
@@ -6,7 +6,7 @@
 }
 
 
-.transaction-history th {
+.transactionHistory th {
     font-size: 20px;
     background-color: #00bfff;
     color: #fff;
@@ -15,18 +15,18 @@
 }
 
 
-.transaction-history tr {
+.transactionHistory tr {
     border-bottom: 1px solid #ccc;
 }
 
 
-.transaction-history td {
+.transactionHistory td {
     font-family: 'Oswald', sans-serif;
     padding: 20px;
     font-size: 25px;
 }
 
-.transaction-history tr:hover {
+.transactionHistory tr:hover {
     background-color: #9da1a2;
 }
 
